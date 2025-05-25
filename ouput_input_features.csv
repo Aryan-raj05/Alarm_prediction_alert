@@ -1,0 +1,21 @@
+Next Alarm Type/Name,Future Alarm Occurrence,Time to Next Alarm,Future Alarm Severity,Likelihood of Escalation/Recurrence
+Site Name,Site Name,Site Name,Site Name,Alarm Name
+Alarmed Object Name,Alarmed Object Name,Alarmed Object Name,Alarmed Object Name,Alarm Type
+Alarmed Object Type,Source System,Source System,Severity,Severity
+Source System,Alarm Name,Alarm Name,Previous Severity,Number Of Occurrences
+Alarm Name,Alarm Type,Alarm Type,Alarm Name,Life Span (minutes)
+Alarm Type,Severity,Severity,Alarm Type,Probable Cause
+Severity,Is Service Affecting,Is Service Affecting,Number Of Occurrences,Specific Problem
+Probable Cause,First Time Detected,Last Time Detected,Life Span (minutes),Is Service Affecting
+Specific Problem,Last Time Detected,Last Time Cleared,Probable Cause,Historical Sequence of Alarms
+Is Service Affecting,Number Of Occurrences,Number Of Occurrences,Specific Problem,Inter-arrival Times
+First Time Detected,Life Span (minutes),Life Span (minutes),Historical Sequence of Alarms,Aggregated Alarm Statistics
+Last Time Detected,Additional Text,Additional Text,Inter-arrival Times,"Temporal Features (e.g. hour, weekday)"
+Last Time Cleared,Historical Sequence of Alarms,Historical Sequence of Alarms,Aggregated Alarm Statistics,Categorical Encoding
+Number Of Occurrences,Inter-arrival Times,Inter-arrival Times,"Temporal Features (e.g. hour, weekday)",
+Additional Text,Aggregated Alarm Statistics,Aggregated Alarm Statistics,Categorical Encoding,
+Historical Sequence of Alarms,"Temporal Features (e.g. hour, weekday)","Temporal Features (e.g. hour, weekday)",,
+Inter-arrival Times,Categorical Encoding,Categorical Encoding,,
+Aggregated Alarm Statistics,,,,
+"Temporal Features (e.g. hour, weekday)",,,,
+Categorical Encoding,,,,
